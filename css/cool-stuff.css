@@ -4,5 +4,21 @@ h1 {
 
 body a{
   font-family:'Inconsolata';
+}
+
+.navbar {
+  font-family: 'Inconsolata';
+}
+
+.navbar-default .navbar-brand {
   color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+} 
+
+.navbar-default {
+    background-color: white;
+    border-color: #54D44F;
 }
