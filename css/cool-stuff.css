@@ -22,3 +22,8 @@ body a{
     background-color: white;
     border-color: #54D44F;
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: #e7e7e7;
+}
