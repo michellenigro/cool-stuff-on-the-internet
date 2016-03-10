@@ -1,0 +1,56 @@
+/********** Fixes **********/
+
+.header {
+  padding-left: 1%;
+}
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.row {
+  clear: both;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+/* Posititoning Classes */
+[class*="col-"]{
+  margin: 1%;
+  margin-bottom: 2%;
+}
+
+
+.col-2 {
+  width: 31%;
+}
+
+.intro {
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+
